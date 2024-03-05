@@ -31,7 +31,7 @@ function InscriptionForm(props) {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (validerForm()) {
-            console.log("form sumbitted");
+            //console.log("form sumbitted");
             window.location.href = '/accueil';
         }
     }
@@ -41,8 +41,9 @@ function InscriptionForm(props) {
             
 
             <form onSubmit={handleSubmit} className='form'>
-                <input name="nom" type="text" value={nom} onChange={handleChange} placeholder='nom' />
-                <input name="email" type="text" value={email} onChange={handleChange} placeholder='email' />
+                <h1>HugHUB</h1>
+                <input name="nom" type="text" value={nom} onChange={handleChange} placeholder='NOM' />
+                <input name="email" type="text" value={email} onChange={handleChange} placeholder='E-MAIL' />
                 {errors.length > 0 && 
                     <div className='alert'>
                         {errors.join(" , ")}

@@ -8,26 +8,48 @@ import Header from './components/Header';
 import Hommes from './pages/Hommes';
 import Femmes from './pages/Femmes';
 import Panier from './pages/Panier';
-
+import { Helmet } from 'react-helmet';
 
 function App(props) {
   return (
     <div>
+      <Helmet>
+        <title>HugHUB</title>
+        <link rel="icon" href="favicon.ico" />
+      </Helmet>
       <BrowserRouter>
-        <Header /> 
         <Routes>
           <Route path="/" element={<InscriptionForm/>}/>
-          <Route path="/accueil" element={<Accueil/>}/>
-          <Route path="/card" element={<Card/>}/>
-          <Route path="/homme" element={<Hommes/>}/>
-          <Route path="/femme" element={<Femmes/>}/>
-          <Route path="/panier" element={<Panier/>}/>
+          <Route path="/accueil" element={<AppLayout><Accueil/></AppLayout>}/>
+          <Route path="/card" element={<AppLayout><Card/></AppLayout>}/>
+          <Route path="/homme" element={<AppLayout><Hommes/></AppLayout>}/>
+          <Route path="/femme" element={<AppLayout><Femmes/></AppLayout>}/>
+          <Route path="/panier" element={<AppLayout><Panier/></AppLayout>}/>
         </Routes>
-        <Footer/>
       </BrowserRouter>
-
     </div>
   );
 }
+
+function AppLayout({children}) {
+  if (window.location.pathname === "/") {
+    return (
+      <div>
+        {children}
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        <Header />
+        {children}
+        <Footer />
+      </div>
+    );
+  }
+}
+
+
+
 
 export default App;

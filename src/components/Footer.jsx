@@ -8,10 +8,10 @@ function Footer(props) {
                 <div className='footer-links'>
                     <h3>Liens utiles</h3>
                     <ul>
-                        <li><a href='/'>Accueil</a></li>
-                        <li><a href='/products'>Produits</a></li>
-                        <li><a href='/about'>À propos</a></li>
-                        <li><a href='/contact'>Contact</a></li>
+                        <li><a href='/'>Connexion</a></li>
+                        <li><a href='/accueil'>Accueil</a></li>
+                        <li><a href='/homme'>Homme</a></li>
+                        <li><a href='/femme'>Femme</a></li>
                     </ul>
                 </div>
                 <div className='footer-social'>

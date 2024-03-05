@@ -11,7 +11,7 @@ const Header= () =>{
         <li><Link to="/accueil" className="white-link">Accueil</Link></li>
         <li><Link to="/homme" className="white-link">Hommes</Link></li>
         <li><Link to="/femme" className="white-link">Femmes</Link></li>
-        <li><Link to="/autre" className='white-link'>Panier</Link></li>
+        <li><Link to="/panier" className='white-link'>Panier</Link></li>
     </div>
   </div>
   );    
