@@ -1,0 +1,80 @@
+.accueil-back{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.274), 
+    rgba(0, 0, 0, 0.274)
+    ),url(../img/home.jpg);
+    background-size: cover;
+}
+
+.accueil-back h1 {
+    text-align: center;
+    width: 25%;
+    height: 30%;
+    background-color: #57565675;
+    margin: 0 0 0 5%;  
+    font-family: "Paytone One";
+    color: #e2dbdb;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-shadow: 0 2px 15px #494949,0 -2px 1px;
+    padding-top: 15%;
+}
+
+
+.accueil-titre{
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.accueil-titre h1{
+    margin: auto;
+	letter-spacing: 0.0015em;
+	font-size: 50px;
+	text-shadow: 0 1px #ff8d8d, -1px 0 #ffc0c0, -1px 2px #ff8d8d, -2px 1px #ffc0c0,
+		-2px 3px #ff8d8d, -3px 2px #ffc0c0, -3px 4px #ff8d8d, -4px 3px #ffc0c0,
+		-4px 5px #ff8d8d, -5px 4px #ffc0c0, -5px 6px #ff8d8d, -6px 5px #ffc0c0,
+		-6px 7px #ff8d8d, -7px 6px #ffc0c0, -7px 8px #ff8d8d, -8px 7px #ffc0c0;
+	text-align: center;
+}
+
+.accueil-product-card{
+    margin: 2%;
+}
+
+.accueil-categories{
+    width: auto;
+    height: auto;
+    display: inline-flex;
+}
+
+.accueil-categorie-homme{
+    height: 300px;
+    width: 400px;
+    margin: 2%;
+    text-align: center;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.274), 
+    rgba(0, 0, 0, 0.274)
+    ),url(../img/homme.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.accueil-categorie-femme{
+    height: 300px;
+    width: 400px;
+    margin: 2%;
+    text-align: center;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.274), 
+    rgba(0, 0, 0, 0.274)
+    ),url(../img/femme.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}

@@ -1,0 +1,23 @@
+.femme-back{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.405), 
+    rgba(0, 0, 0, 0.405)
+    ),url(../img/femme.jpg);
+    background-size: cover;
+}
+
+.femme-back h1 {
+    text-align: center;
+    width: 25%;
+    height: 30%;
+    background-color: #ffffff4f;
+    margin: 0 0 0 5%;  
+    font-family: "Paytone One";
+    color: #e2dbdb;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-shadow: 0 2px 15px #494949,0 -2px 1px;
+    padding-top: 15%;
+}
