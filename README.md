@@ -24,4 +24,8 @@ parcourir des produits, les ajouter à un panier, et passer une commande.
 
 - Ce projet avait pour but de nous solidariser avec nos base d'un cours précédent de JavaScript.
 
+### Problèmes
+
+- je n'ai juste pas réussi à faire le système de panier.
+
 
